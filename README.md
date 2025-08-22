@@ -1,5 +1,3 @@
-# Tecnicas-de-desenvolvimento-de-Algoritmos
-
 # Técnicas de Desenvolvimento de Algoritmos
 
 Repositório da disciplina de Técnicas de Desenvolvimento de Algoritmos contendo materiais, exercícios e projetos desenvolvidos ao longo do curso.
