@@ -1,1 +1,1 @@
-# T-cnicas-de-desenvolvimento-de-Algoritmos
+# Tecnicas-de-desenvolvimento-de-Algoritmos
