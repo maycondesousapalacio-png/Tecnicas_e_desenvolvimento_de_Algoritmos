@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="soma"/>
+        <attribute name="authors" value="Maycon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-05 08:03:47 "/>
+        <attribute name="created" value="TWF5Y29uO0RFU0tUT1AtOVNNTjNOMDsyMDI1LTA5LTA1OyIwNzo1NDo0NSAiOzI4NzM="/>
+        <attribute name="edited" value="TWF5Y29uO0RFU0tUT1AtOVNNTjNOMDsyMDI1LTA5LTA1OyIwODowMzo0NyAiOzE7Mjk3OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Informe o primeiro n&#250;mero: &quot;" newline="True"/>
+            <declare name="num1, num2, soma" type="Integer" array="False" size=""/>
+            <input variable="num1"/>
+            <output expression="&quot;Informe o segundo n&#250;mero: &quot;" newline="True"/>
+            <input variable="num2"/>
+            <assign variable="soma" expression="num1+num2"/>
+            <output expression="&quot;A soma desses numeros &#233;: &quot;&amp;soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

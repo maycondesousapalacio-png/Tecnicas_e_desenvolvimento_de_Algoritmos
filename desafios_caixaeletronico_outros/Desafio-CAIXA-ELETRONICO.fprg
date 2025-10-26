@@ -1,0 +1,511 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="CAIXA-ELETRONICOOOOOOO"/>
+        <attribute name="authors" value="Maycon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-03 05:16:15 "/>
+        <attribute name="created" value="TWF5Y29uO0RFU0tUT1AtOVNNTjNOMDsyMDI1LTA5LTAzOyIwNDoyOTozMSAiOzI4NjU="/>
+        <attribute name="edited" value="TWF5Y29uO0RFU0tUT1AtOVNNTjNOMDsyMDI1LTA5LTAzOyIwNToxNjoxNSAiOzI7Mjk3Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe quanto voc&#234; deseja retirar: &quot;" newline="True"/>
+            <input variable="valor"/>
+            <declare name="cem, cinquenta, vinte, dez, dois, um" type="Integer" array="False" size=""/>
+            <assign variable="cem" expression="valor/100"/>
+            <if expression="valor&gt;0">
+                <then>
+                    <if expression="cem&gt;=1">
+                        <then>
+                            <assign variable="valor" expression="valor-(cem*100)"/>
+                            <assign variable="cinquenta" expression="valor/50"/>
+                            <if expression="cinquenta&gt;=1">
+                                <then>
+                                    <assign variable="valor" expression="valor-(cinquenta*50)"/>
+                                    <assign variable="vinte" expression="valor/20"/>
+                                    <if expression="vinte&gt;=1">
+                                        <then>
+                                            <assign variable="valor" expression="valor-(vinte*20)"/>
+                                            <assign variable="dez" expression="valor/10"/>
+                                            <if expression="dez&gt;=1">
+                                                <then>
+                                                    <assign variable="valor" expression="valor-(dez*10)"/>
+                                                    <assign variable="dois" expression="valor/2"/>
+                                                    <if expression="dois&gt;=1">
+                                                        <then>
+                                                            <assign variable="valor" expression="valor-(dois*2)"/>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </then>
+                                                        <else>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </then>
+                                                <else>
+                                                    <assign variable="dois" expression="valor/2"/>
+                                                    <if expression="dois&gt;=1">
+                                                        <then>
+                                                            <assign variable="valor" expression="valor-(dois*2)"/>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </then>
+                                                        <else>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </then>
+                                        <else>
+                                            <assign variable="dez" expression="valor/10"/>
+                                            <if expression="dez&gt;=1">
+                                                <then>
+                                                    <assign variable="valor" expression="valor-(dez*10)"/>
+                                                    <assign variable="dois" expression="valor/2"/>
+                                                    <if expression="dois&gt;=1">
+                                                        <then>
+                                                            <assign variable="valor" expression="valor-(dois*2)"/>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </then>
+                                                        <else>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </then>
+                                                <else>
+                                                    <assign variable="dois" expression="valor/2"/>
+                                                    <if expression="dois&gt;=1">
+                                                        <then>
+                                                            <assign variable="valor" expression="valor-(dois*2)"/>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </then>
+                                                        <else>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </then>
+                                <else>
+                                    <assign variable="vinte" expression="valor/20"/>
+                                    <if expression="vinte&gt;=1">
+                                        <then>
+                                            <assign variable="valor" expression="valor-(vinte*20)"/>
+                                            <assign variable="dez" expression="valor/10"/>
+                                            <if expression="dez&gt;=1">
+                                                <then>
+                                                    <assign variable="valor" expression="valor-(dez*10)"/>
+                                                    <assign variable="dois" expression="valor/2"/>
+                                                    <if expression="dois&gt;=1">
+                                                        <then>
+                                                            <assign variable="valor" expression="valor-(dois*2)"/>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </then>
+                                                        <else>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </then>
+                                                <else>
+                                                    <assign variable="dois" expression="valor/2"/>
+                                                    <if expression="dois&gt;=1">
+                                                        <then>
+                                                            <assign variable="valor" expression="valor-(dois*2)"/>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </then>
+                                                        <else>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </then>
+                                        <else>
+                                            <assign variable="dez" expression="valor/10"/>
+                                            <if expression="dez&gt;=1">
+                                                <then>
+                                                    <assign variable="valor" expression="valor-(dez*10)"/>
+                                                    <assign variable="dois" expression="valor/2"/>
+                                                    <if expression="dois&gt;=1">
+                                                        <then>
+                                                            <assign variable="valor" expression="valor-(dois*2)"/>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </then>
+                                                        <else>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </then>
+                                                <else>
+                                                    <assign variable="dois" expression="valor/2"/>
+                                                    <if expression="dois&gt;=1">
+                                                        <then>
+                                                            <assign variable="valor" expression="valor-(dois*2)"/>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </then>
+                                                        <else>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <assign variable="cinquenta" expression="valor/50"/>
+                            <if expression="cinquenta&gt;=1">
+                                <then>
+                                    <assign variable="valor" expression="valor-(cinquenta*50)"/>
+                                    <assign variable="vinte" expression="valor/20"/>
+                                    <if expression="vinte&gt;=1">
+                                        <then>
+                                            <assign variable="valor" expression="valor-(vinte*20)"/>
+                                            <assign variable="dez" expression="valor/10"/>
+                                            <if expression="dez&gt;=1">
+                                                <then>
+                                                    <assign variable="valor" expression="valor-(dez*10)"/>
+                                                    <assign variable="dois" expression="valor/2"/>
+                                                    <if expression="dois&gt;=1">
+                                                        <then>
+                                                            <assign variable="valor" expression="valor-(dois*2)"/>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </then>
+                                                        <else>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </then>
+                                                <else>
+                                                    <assign variable="dois" expression="valor/2"/>
+                                                    <if expression="dois&gt;=1">
+                                                        <then>
+                                                            <assign variable="valor" expression="valor-(dois*2)"/>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </then>
+                                                        <else>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </then>
+                                        <else>
+                                            <assign variable="dez" expression="valor/10"/>
+                                            <if expression="dez&gt;=1">
+                                                <then>
+                                                    <assign variable="valor" expression="valor-(dez*10)"/>
+                                                    <assign variable="dois" expression="valor/2"/>
+                                                    <if expression="dois&gt;=1">
+                                                        <then>
+                                                            <assign variable="valor" expression="valor-(dois*2)"/>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </then>
+                                                        <else>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </then>
+                                                <else>
+                                                    <assign variable="dois" expression="valor/2"/>
+                                                    <if expression="dois&gt;=1">
+                                                        <then>
+                                                            <assign variable="valor" expression="valor-(dois*2)"/>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </then>
+                                                        <else>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </then>
+                                <else>
+                                    <assign variable="vinte" expression="valor/20"/>
+                                    <if expression="vinte&gt;=1">
+                                        <then>
+                                            <assign variable="valor" expression="valor-(vinte*20)"/>
+                                            <assign variable="dez" expression="valor/10"/>
+                                            <if expression="dez&gt;=1">
+                                                <then>
+                                                    <assign variable="valor" expression="valor-(dez*10)"/>
+                                                    <assign variable="dois" expression="valor/2"/>
+                                                    <if expression="dois&gt;=1">
+                                                        <then>
+                                                            <assign variable="valor" expression="valor-(dois*2)"/>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </then>
+                                                        <else>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </then>
+                                                <else>
+                                                    <assign variable="dois" expression="valor/2"/>
+                                                    <if expression="dois&gt;=1">
+                                                        <then>
+                                                            <assign variable="valor" expression="valor-(dois*2)"/>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </then>
+                                                        <else>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </then>
+                                        <else>
+                                            <assign variable="dez" expression="valor/10"/>
+                                            <if expression="dez&gt;=1">
+                                                <then>
+                                                    <assign variable="valor" expression="valor-(dez*10)"/>
+                                                    <assign variable="dois" expression="valor/2"/>
+                                                    <if expression="dois&gt;=1">
+                                                        <then>
+                                                            <assign variable="valor" expression="valor-(dois*2)"/>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </then>
+                                                        <else>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </then>
+                                                <else>
+                                                    <assign variable="dois" expression="valor/2"/>
+                                                    <if expression="dois&gt;=1">
+                                                        <then>
+                                                            <assign variable="valor" expression="valor-(dois*2)"/>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </then>
+                                                        <else>
+                                                            <assign variable="um" expression="valor/1"/>
+                                                            <if expression="um&gt;=1">
+                                                                <then>
+                                                                    <assign variable="valor" expression="valor-(um*1)"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;VALOR INV&#193;LIDO, INFORME N&#218;MEROS POSITIVOS&quot;" newline="True"/>
+                    <assign variable="cem" expression="0"/>
+                    <assign variable="cinquenta" expression="0"/>
+                    <assign variable="vinte" expression="0"/>
+                    <assign variable="dez" expression="0"/>
+                    <assign variable="dois" expression="0"/>
+                    <assign variable="um" expression="0"/>
+                </else>
+            </if>
+            <output expression="&quot;Notas de Cem: &quot;&amp;cem" newline="True"/>
+            <output expression="&quot;Notas de Cinquenta: &quot;&amp;cinquenta" newline="True"/>
+            <output expression="&quot;Notas de Vinte: &quot;&amp;vinte" newline="True"/>
+            <output expression="&quot;Notas de Dez: &quot;&amp;dez" newline="True"/>
+            <output expression="&quot;Notas de Dois: &quot;&amp;dois" newline="True"/>
+            <output expression="&quot;Notas de Um: &quot;&amp;um" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

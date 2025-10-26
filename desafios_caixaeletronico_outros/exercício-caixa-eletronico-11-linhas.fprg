@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="caixa-eletronico-igual-a-professora"/>
+        <attribute name="authors" value="Maycon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-05 09:21:01 "/>
+        <attribute name="created" value="TWF5Y29uO0RFU0tUT1AtOVNNTjNOMDsyMDI1LTA5LTA1OyIwODo1OTowNyAiOzI4Nzc="/>
+        <attribute name="edited" value="TWF5Y29uO0RFU0tUT1AtOVNNTjNOMDsyMDI1LTA5LTA1OyIwOToyMTowMSAiOzE7Mjk2OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Informe o valor a ser sacado: &quot;" newline="True"/>
+            <declare name="cem, cinquenta, vinte, dez, dois, um, valor" type="Integer" array="False" size=""/>
+            <input variable="valor"/>
+            <assign variable="cem" expression="valor/100"/>
+            <assign variable="cinquenta" expression="(valor%100)/50"/>
+            <assign variable="vinte" expression="(((valor%100)%50))/20"/>
+            <assign variable="dez" expression="((((valor%100)%50))%20)/10"/>
+            <assign variable="dois" expression="(((((valor%100)%50))%20)%10)/2"/>
+            <assign variable="um" expression="((((((valor%100)%50))%20)%10)%2)/1"/>
+            <output expression="&quot;Notas de cem: &quot;&amp;cem&amp;&quot; Notas de cinquenta: &quot;&amp;cinquenta&amp;&quot; Notas de vinte: &quot;&amp;vinte&amp;&quot; Notas de dez: &quot;&amp;dez&amp;&quot; Notas de dois: &quot;&amp;dois&amp;&quot; Notas de um: &quot;&amp;um" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

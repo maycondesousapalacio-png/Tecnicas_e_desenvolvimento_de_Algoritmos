@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tabuada"/>
+        <attribute name="authors" value="Maycon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-05 08:28:42 "/>
+        <attribute name="created" value="TWF5Y29uO0RFU0tUT1AtOVNNTjNOMDsyMDI1LTA5LTA1OyIwODoxNToyNyAiOzI4NzE="/>
+        <attribute name="edited" value="TWF5Y29uO0RFU0tUT1AtOVNNTjNOMDsyMDI1LTA5LTA1OyIwODoyODo0MiAiOzI7Mjk4MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Insira um n&#250;mero: &quot;" newline="True"/>
+            <declare name="num, res" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <input variable="num"/>
+            <for variable="i" start="0" end="10" direction="inc" step="1">
+                <assign variable="res" expression="num*i"/>
+                <output expression="num&amp;&quot;x&quot;&amp;i&amp;&quot;=&quot;&amp;res" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

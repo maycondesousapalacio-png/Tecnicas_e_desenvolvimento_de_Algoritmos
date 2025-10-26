@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flowgoritmo"/>
+        <attribute name="authors" value="Maycon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-29 09:33:04 "/>
+        <attribute name="created" value="TWF5Y29uO0RFU0tUT1AtOVNNTjNOMDsyMDI1LTA4LTI5OyIwNzozMTowNCAiOzI4Njg="/>
+        <attribute name="edited" value="TWF5Y29uO0RFU0tUT1AtOVNNTjNOMDsyMDI1LTA4LTI5OyIwOTozMzowNCAiOzE7Mjk4MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Digite a primeira nota&quot;" newline="True"/>
+            <declare name="Nota1" type="Real" array="False" size=""/>
+            <declare name="Nota2" type="Real" array="False" size=""/>
+            <input variable="Nota1"/>
+            <output expression="&quot;Digite a segunda nota&quot;" newline="True"/>
+            <input variable="Nota2"/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <assign variable="media" expression="(nota1+nota2)/2"/>
+            <output expression="&quot;Sua nota &#233;:&quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
