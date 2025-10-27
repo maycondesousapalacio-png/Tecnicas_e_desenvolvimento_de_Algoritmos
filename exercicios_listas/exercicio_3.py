@@ -1,3 +1,9 @@
+# Faça um programa que:
+#  Lê duas listas com 5 inteiros cada.
+#  Checa quais elementos da segunda lista são iguais a algum elemento
+# da primeira lista.
+#  Se não houver elementos em comum, o programa deve informar isso.
+
 lista1=[]
 lista2=[]
 valores_iguais=[]
