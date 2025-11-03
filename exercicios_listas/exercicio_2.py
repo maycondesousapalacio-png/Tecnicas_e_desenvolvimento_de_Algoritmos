@@ -15,7 +15,7 @@ while True:
         print("Informe notas ou o comando para parar...")
         continue
     
-    nota=int(nota)
+    nota=float(nota)
     notas.append(nota)
     i+=1
 
@@ -24,5 +24,4 @@ for x in notas:
 media=soma_notas/len(notas)
 
 print(f'Suas notas são: {notas}')
-print("A sua media é ",media)
-
+print(f"A sua media é {media:.2f}")

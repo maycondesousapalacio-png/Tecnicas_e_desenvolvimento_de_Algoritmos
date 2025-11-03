@@ -5,7 +5,7 @@
 # Armazene todos os números digitados em
 # uma lista, sem repetição.
 
-numeros=[]
+numeros=set()
 digitados=0
 
 print("Informe números positivos.")
@@ -18,9 +18,10 @@ while True:
         if num<0:
             break
         if num not in numeros:
-            numeros.append(num)
+            numeros.add(num)
         
     except ValueError:
         print("Informe números...")
 
+lista=list(numeros)
 print(numeros)
