@@ -30,15 +30,19 @@ Template: Estrutura para outros CRUDs (Create, Read, Update, Delete)
 Estudo: Base para implementação de novas funcionalidades
 
 ## 🚀 Funcionalidades
+
 Funcionalidade	Descrição	Estruturas Utilizadas
-📝 Adicionar Livros	Cadastro com validação de dados	Listas, Dicionários, Condicionais
-📋 Listar Todos	Exibição completa do acervo	For, Listas, Enumerate
-🔍 Buscar por Título	Busca parcial em títulos	For, Condicionais, Listas
-🏷️ Filtrar por Categoria	Listagem por categorias	Dicionários, For, Condicionais
-📊 Estatísticas	Métricas do acervo	Dicionários, For, Cálculos
-🖥️ Exemplo de Execução
-Menu Principal
-text
+
+- 📝 Adicionar Livros	Cadastro com validação de dados	Listas, Dicionários, Condicionais
+- 📋 Listar Todos	Exibição completa do acervo	For, Listas, Enumerate
+- 🔍 Buscar por Título	Busca parcial em títulos	For, Condicionais, Listas
+- 🏷️ Filtrar por Categoria	Listagem por categorias	Dicionários, For, Condicionais
+- 📊 Estatísticas	Métricas do acervo	Dicionários, For, Cálculos
+- 🖥️ Exemplo de Execução
+
+
+## Menu Principal
+
 ==================================================
        SISTEMA DE GERENCIAMENTO DE BIBLIOTECA
 ==================================================
@@ -49,10 +53,12 @@ text
 5. Estatísticas da biblioteca
 6. Sair
 ==================================================
-📝 Exemplo: Adicionando um Livro
+
+
+## 📝 Exemplo: Adicionando um Livro
+
 Entrada do usuário:
 
-text
 --- ADICIONAR NOVO LIVRO ---
 Título do livro: Dom Casmurro
 Autor: Machado de Assis
@@ -68,33 +74,30 @@ Digite o número da categoria: 4
 Ano de publicação: 1899
 Saída do sistema:
 
-text
 ✅ Livro 'Dom Casmurro' adicionado com sucesso!
 📋 Exemplo: Listando Livros
 Saída do sistema:
 
-text
 --- TODOS OS LIVROS ---
 1. 'Dom Casmurro' - Machado de Assis (1899)
    Categoria: Romance | Status: ✅ Disponível
 
 2. 'O Senhor dos Anéis' - J.R.R. Tolkien (1954)
    Categoria: Fantasia | Status: ✅ Disponível
-🔍 Exemplo: Buscando Livro
+
+
+## 🔍 Exemplo: Buscando Livro
 Entrada do usuário:
 
-text
 --- BUSCAR LIVRO ---
 Digite o título ou parte do título: casmurro
 Saída do sistema:
 
-text
 📚 1 livro(s) encontrado(s):
 1. 'Dom Casmurro' - Machado de Assis | ✅ Disponível
 🏷️ Exemplo: Listando por Categoria
 Entrada do usuário:
 
-text
 --- LIVROS POR CATEGORIA ---
 1. Ficção
 2. Não-Ficção
@@ -105,13 +108,11 @@ text
 Digite o número da categoria: 4
 Saída do sistema:
 
-text
 📚 Livros na categoria 'Romance':
 1. 'Dom Casmurro' - Machado de Assis (1899) | ✅ Disponível
 📊 Exemplo: Estatísticas
 Saída do sistema:
 
-text
 --- ESTATÍSTICAS DA BIBLIOTECA ---
 📊 Total de livros: 5
 ✅ Livros disponíveis: 4
@@ -121,7 +122,9 @@ text
    Romance: 2 livro(s) (40.0%)
    Fantasia: 2 livro(s) (40.0%)
    Ficção: 1 livro(s) (20.0%)
+
 🛠️ Estruturas de Dados Utilizadas
+
 Lista Principal - biblioteca
 python
 biblioteca = [
@@ -143,36 +146,18 @@ categorias = {
     "4": "Romance",
     "5": "Fantasia"
 }
-📈 Possíveis Expansões
-O sistema pode ser expandido com:
 
-✅ Sistema de empréstimos com datas
+## 🎓 Valor Educacional
 
-✅ Persistência em arquivo (JSON, CSV)
-
-✅ Interface gráfica (Tkinter, PyQt)
-
-✅ Relatórios em PDF
-
-✅ Sistema de usuários
-
-✅ Busca avançada (autor, ano, múltiplos critérios)
-
-🎓 Valor Educacional
 Este projeto é ideal para:
 
-Iniciantes em Python: Compreensão de sintaxe básica
+- Iniciantes em Python: Compreensão de sintaxe básica
+- Estudantes de Estruturas de Dados: Aplicação prática de listas e dicionários
+- Desenvolvedores Júnior: Padrões de validação e tratamento de entrada
+- Professores: Material didático para aulas práticas
 
-Estudantes de Estruturas de Dados: Aplicação prática de listas e dicionários
-
-Desenvolvedores Júnior: Padrões de validação e tratamento de entrada
-
-Professores: Material didático para aulas práticas
-
-📝 Como Executar
+## 📝 Como Executar
 Salve o código em um arquivo .py
-
 Execute com Python:
 
-bash
 python sistema_biblioteca.py
